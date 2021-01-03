@@ -1,10 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View, Text} from 'react-native';
-import {NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
-import UserForm from './views/UserForm'
-import UserList from './views/UserForm'
+
 
 const Stack = createStackNavigator()
 
